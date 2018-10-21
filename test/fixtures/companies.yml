@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  ceo_name: MyString
+  established: 1
+  listing: 1
+  capital: 1
+  sales: 1
+  employees: 1
+  average_age: 1
+  hp_url: MyString
+
+two:
+  name: MyString
+  ceo_name: MyString
+  established: 1
+  listing: 1
+  capital: 1
+  sales: 1
+  employees: 1
+  average_age: 1
+  hp_url: MyString
