@@ -13,15 +13,15 @@
 ActiveRecord::Schema.define(version: 2018_10_21_233503) do
 
   create_table "companies", force: :cascade do |t|
-    t.string "name"
-    t.string "ceo_name"
-    t.integer "established"
-    t.integer "listing"
-    t.integer "capital"
-    t.integer "sales"
-    t.integer "employees"
-    t.integer "average_age"
-    t.string "hp_url"
+    t.string "name", null: false
+    t.string "ceo_name", null: false
+    t.integer "established", null: false
+    t.integer "listing", default: 0, null: false
+    t.integer "capital", null: false
+    t.integer "sales", null: false
+    t.integer "employees", null: false
+    t.integer "average_age", null: false
+    t.string "hp_url", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
